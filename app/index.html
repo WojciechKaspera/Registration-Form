@@ -1,0 +1,191 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>projekt test</title>
+
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+
+  <!-- build:css styles/main.css -->
+  <link rel="stylesheet" href="styles/main.css">
+  <!-- endbuild -->
+
+
+</head>
+<body>
+
+<!--[if IE]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
+  your browser</a> to improve your experience.</p>
+<![endif]-->
+
+<div class="box">
+  <nav class="nav-box" id="mainNav">
+    <ul>
+      <li><a href="" class="menuItem">Dane osobowe</a></li>
+      <li><a href="" class="menuItem">Doświadczenie</a></li>
+      <li><a href="" class="menuItem">Warsztaty (opcjonalne)</a></li>
+      <li><a href="" class="menuItem">Regulamin</a></li>
+    </ul>
+  </nav>
+
+  <form action="" method="post" class="form-box" id="mainForm">
+    <section>
+      <span class="hdl">Pola oznaczone gwiazdką są obowiązkowe</span>
+
+      <div class="formui-wrapper">
+        <div class="formui-box">
+          <label for="name">Imię<sup>*</sup></label>
+          <input type="text" name="name" id="name" data-validate="require">
+        </div>
+
+        <div class="formui-box">
+          <label for="surname">Nazwisko<sup>*</sup></label>
+          <input type="text" name="surname" id="surname" data-validate="require">
+        </div>
+
+        <div class="formui-box">
+          <label for="country">Kraj<sup>*</sup></label>
+          <input type="text" name="country" id="country" data-validate="require" value="uuk">
+        </div>
+
+        <div class="formui-box">
+          <label for="city">Miejscowość<sup>*</sup></label>
+          <input type="text" name="city" id="city" data-validate="require" value="uuk">
+        </div>
+
+        <div class="formui-box">
+          <label for="birhday">Data urodzenia<sup>*</sup></label>
+          <input type="text" name="birhday" id="birhday" placeholder="DD-MM-RRRR" data-validate="require"
+                 value="11-11-1999">
+        </div>
+
+        <div class="formui-box">
+          <label for="phone">Telefon kontaktowy<sup>*</sup></label>
+          <input type="text" name="phone" id="phone" placeholder="000 - 000 - 000" data-validate="require"
+                 value="555 - 555 - 555">
+        </div>
+      </div>
+      <footer class="footer-box">
+        <button type="button" class="btn btn-active btn-next">Dalej</button>
+      </footer>
+    </section>
+
+    <section>
+      <span class="hdl">Jakie posiadasz umiejętności</span>
+
+      <div class="formui-wrapper">
+        <div class="formui-box checkboxes">
+          <label for="">HTML</label><input type="checkbox" name="HTML" value="HTML">
+        </div>
+        <div class="formui-box checkboxes">
+          <label for="">CSS</label><input type="checkbox" name="CSS" value="CSS">
+        </div>
+        <div class="formui-box checkboxes">
+          <label for="">Javascript</label><input type="checkbox" name="Javascript" value="Javascript">
+        </div>
+        <div class="formui-box checkboxes">
+          <label for="">Pascal</label><input type="checkbox" name="Pascal" value="Pascal">
+        </div>
+        <div class="formui-box checkboxes">
+          <label for="">C++</label><input type="checkbox" name="C++" value="C++">
+        </div>
+        <div class="formui-box checkboxes">
+          <label for="">Python</label><input type="checkbox" name="Python" value="Python">
+        </div>
+        <div class="formui-box checkboxes">
+          <label for="">Java</label><input type="checkbox" name="Java" value="Java">
+        </div>
+        <div class="formui-box checkboxes">
+          <label for="">Drupal</label><input type="checkbox" name="Drupal" value="Drupal">
+        </div>
+        <div class="formui-box checkboxes">
+          <label for="">iOS</label><input type="checkbox" name="iOS" value="iOS">
+        </div>
+        <div class="formui-box checkboxes">
+          <label for="">Android</label><input type="checkbox" name="Android" value="Android">
+        </div>
+      </div>
+
+      <div class="formui-wrapper">
+        <div class="formui-box">
+          <label for="others" id="othersLabel">Inne <span id="counterSpan"> 0/40 </span> </label>
+          <input type="text" name="others" id="others" maxlength="40">
+        </div>
+      </div>
+      <footer class="footer-box">
+        <button type="button" class="btn btn-prev">Wstecz</button>
+        <button type="button" class="btn btn-active btn-next">Dalej</button>
+      </footer>
+    </section>
+
+    <section>
+      <div class="jumbutron-box">
+        <input type="checkbox" name="" value="" data-validate="require" id="iDontWannaLearn">
+        <label for="iDontWannaLearn">Zaznacz jeżeli nie wybierasz się na żaden z
+          warsztatów</label>
+      </div>
+
+      <div class="formui-wrapper">
+        <div class="formui-box">
+          <label for="">Warsztaty HTML</label>
+          <select>
+            <option value="">Wybierz godzinę</option>
+            <option value="">10:00</option>
+            <option value="">11:00</option>
+            <option value="">12:00</option>
+          </select>
+        </div>
+        <div class="formui-box">
+          <label for="">Warsztaty Drupal</label>
+          <select>
+            <option value="">Wybierz godzinę</option>
+            <option value="">10:00</option>
+            <option value="">11:00</option>
+            <option value="">12:00</option>
+          </select>
+        </div>
+      </div>
+
+      <footer class="footer-box">
+        <button type="button" class="btn btn-prev">Wstecz</button>
+        <button type="button" class="btn btn-active btn-next">Dalej</button>
+      </footer>
+    </section>
+
+    <section>
+
+      <span class="hdl">Pola oznaczone gwiazdką są obowiązkowe</span>
+      <div class="agreement-box">
+        <input type="checkbox" name="" value="" id="checkboxReg"><span class="richtext">Oświadczam, że zapoznałem się z treścią regulaminu dostępnego <a
+        href="">tutaj*</a></span>
+      </div>
+
+      <footer class="footer-box">
+        <button type="button" class="btn btn-prev">Wstecz</button>
+        <button type="button" class="btn btn-active btn-submit" id="btnRegister">Zarejestruj się</button>
+      </footer>
+    </section>
+  </form>
+
+</div>
+
+
+<!-- build:js scripts/vendor.js -->
+<!-- bower:js -->
+<script src="/bower_components/modernizr/modernizr.js"></script>
+<!-- endbower -->
+<!-- endbuild -->
+
+
+<!-- build:js scripts/main.js -->
+
+<script src="scripts/jquery-3.2.1.min.js"></script>
+<script src="scripts/main.js"></script>
+<!-- endbuild -->
+</body>
+</html>

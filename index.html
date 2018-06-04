@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html lang="pl">
+    <head>
+        <title>Formularz rejestracyjny</title>
+        <meta charset="utf-8"/>
+        <link rel=stylesheet href="style.css" >
+        <link rel=stylesheet href="css/fontello.css" >
+    </head>
+    
+    <body>
+        <div class="container">
+            <div class="windowMenu">
+                <div class="personalDate"><i class="icon-ok-circled2">Dane osobowe</div>
+                <div class="expirience">Doświadczenie</div>
+                <div class="workshopOptional">Warsztaty (opcjonalne)</div>
+                <div class="regulation"><i class="icon-ok-circled2">Regulamin</div>
+                <div style="clear:both;"></div>
+            </div>
+            
+            <div class="decorationText">Pola oznaczone gwiazdką są obowiązkowe</div>
+            
+        <form action="" method="post" enctype="text/plain">
+                <div class="content">
+                    <div class="name">Imię<sup>*</sup></br> <input type="text" name="name" maxlength="100"></div>
+                    <div class="country">Kraj</br> <input type="text" name="kraj" maxlength="100"></div>
+                    <div class="dateOfBirth">Data urodzenia<sup>*</sup></br> <input type="date" name="dataurodzenia" min="01-01-1890" max="31-12-2017" placeholder="DD-MM-RRRR"></div>
+                   
+                </div>
+                <div class="content">
+                    <div class="surname">Nazwisko<sup>*</sup></br> <input type="text" name="nazwisko" maxlength="100"></div>
+                    <div class="city">Miejscowość<sup>*</sup></br> <input type="text" name="miejscowosc" maxlength="100"></div>
+                    <div class="contactNumber">Telefon kontaktowy <kontaktowy></kontaktowy><sup>*</sup></br> <input type="tel" name="telefon"  pattern="^[0-9\-\+\s\(\)]*$" placeholder="000-000-000" ></div>
+                <div style="clear:both;"></div>
+            
+                </div>
+        
+                <button type="button">DALEJ</button>
+        </form>
+        </div>    
+            
+            
+    </body>
+</html>
